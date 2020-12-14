@@ -80,7 +80,8 @@ else
 Q=@
 endif
 
-compilar_proyecto: $(TARGET) $(TARGET_BIN) $(TARGET_LST) $(TARGET_NM) ocupacion
+#compilar_proyecto
+all: $(TARGET) $(TARGET_BIN) $(TARGET_LST) $(TARGET_NM) ocupacion
 
 -include $(foreach m, $(MODULES), $(wildcard $(m)/module.mk))
 

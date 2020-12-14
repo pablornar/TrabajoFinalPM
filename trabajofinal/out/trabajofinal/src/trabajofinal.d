@@ -1,6 +1,5 @@
 trabajofinal/out/trabajofinal/src/trabajofinal.o: \
- trabajofinal/src/trabajofinal.c trabajofinal/inc/trabajofinal.h \
- libs/sapi/sapi_v0.5.1/inc/sapi.h \
+ trabajofinal/src/trabajofinal.c libs/sapi/sapi_v0.5.1/inc/sapi.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_datatypes.h \
  libs/vendor_libs/lpc_chip_43xx/inc/chip.h \
  libs/vendor_libs/lpc_chip_43xx/inc/config_43xx/sys_config.h \
@@ -96,4 +95,5 @@ trabajofinal/out/trabajofinal/src/trabajofinal.o: \
  libs/sapi/sapi_v0.5.1/inc/sapi_ultrasonic_hcsr04.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_magnetometer_hmc5883l.h \
  libs/sapi/sapi_v0.5.1/inc/sapi_magnetometer_qmc5883l.h \
- libs/sapi/sapi_v0.5.1/inc/sapi_imu_mpu9250.h
+ libs/sapi/sapi_v0.5.1/inc/sapi_imu_mpu9250.h trabajofinal/inc/inicio.h \
+ trabajofinal/inc/trabajofinal.h
