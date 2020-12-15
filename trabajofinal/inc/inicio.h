@@ -20,8 +20,7 @@ uint8_t tempo;
 uint8_t bancont;
 uint8_t muestra8[300];
 uint16_t i;
-uint8_t bandenviar;
-
+uint8_t tarea;
 
 /*==================[declaraciones de funciones externas]====================*/
 

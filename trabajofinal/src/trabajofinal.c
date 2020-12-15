@@ -27,28 +27,30 @@ int main(void)
    adcConfig(ADC_ENABLE); /* ADC */
 
    /* Variable de Retardo no bloqueante */
-   delay_t delay;
-   delay_t tarea;
+   delay_t Tm;
+   delay_t Ttarea;
 
    /* Inicializar Retardo no bloqueante con tiempo en milisegundos
     (500ms = 0,5s) */
-   delayConfig(&delay, 100);
+   delayConfig(&Ttarea, 5);
 
    /*Inicializacion de variables  */
    tempo=0;
    bancont=0;
    i = 0;
-   bandenviar = 0;
+   tarea=0;
 
    /* ------------- REPETIR POR SIEMPRE ------------- */
 	while (1) {
 		lecturateclado();
+
+
 		/* delayRead retorna TRUE cuando se cumple el tiempo de retardo */
-		if (delayRead(&delay)) {
+		if (delayRead(&Ttarea)) {
 			if (tempo == 1) {
-				delayConfig(&delay, 1);
+				delayConfig(&Ttarea, 1);
 			} else if (tempo == 2) {
-				delayConfig(&delay, 2);
+				delayConfig(&Ttarea, 2);
 			}
 			lecturaADC();
 		}
