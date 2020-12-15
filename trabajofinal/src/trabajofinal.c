@@ -28,37 +28,31 @@ int main(void)
 
    /* Variable de Retardo no bloqueante */
    delay_t delay;
+   delay_t tarea;
 
    /* Inicializar Retardo no bloqueante con tiempo en milisegundos
     (500ms = 0,5s) */
    delayConfig(&delay, 100);
 
    /*Inicializacion de variables  */
-   band1 = 1;
-   band4 = 0;
-   ret = 200;
-   valor1 = 0;
-   valor4 = 0;
    tempo=0;
    bancont=0;
    i = 0;
    bandenviar = 0;
 
    /* ------------- REPETIR POR SIEMPRE ------------- */
-   while (1) {
-      lecturateclado();
-      /* delayRead retorna TRUE cuando se cumple el tiempo de retardo */
-      if (delayRead(&delay)) {
-         if (tempo == 1) {
-            delayConfig(&delay, 0.1);
-         } else if (tempo == 2) {
-            delayConfig(&delay, 1);
-         }
-         lecturaADC();
-      }
-      if(bandenviar==1) {
-         enviodatos();
-      }
-   }
+	while (1) {
+		lecturateclado();
+		/* delayRead retorna TRUE cuando se cumple el tiempo de retardo */
+		if (delayRead(&delay)) {
+			if (tempo == 1) {
+				delayConfig(&delay, 1);
+			} else if (tempo == 2) {
+				delayConfig(&delay, 2);
+			}
+			lecturaADC();
+		}
+		enviodatos();
+	}
    return 0;
 }

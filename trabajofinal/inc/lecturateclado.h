@@ -15,7 +15,10 @@
 /*==================[tipos de datos declarados por el usuario]===============*/
 
 /*==================[declaraciones de datos externos]========================*/
-
+uint8_t band1;
+uint8_t band4;
+uint8_t valor1;
+uint8_t valor4;
 /*==================[declaraciones de funciones externas]====================*/
 
 

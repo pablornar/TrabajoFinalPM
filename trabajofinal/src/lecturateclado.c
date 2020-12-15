@@ -2,9 +2,18 @@
 #include "sapi.h"        // <= Biblioteca sAPI
 #include "inicio.h"
 #include "lecturateclado.h"
+/* Inicializacion de variables locales*/
+
+
+
 
 void lecturateclado()
 {
+	band1 = 1;
+	band4 = 0;
+	valor1 = 0;
+	valor4 = 0;
+
    valor1 = !gpioRead(TEC1);
    valor4 = !gpioRead(TEC4);
    if ((valor1 == 1) && (band1 == 0)) {

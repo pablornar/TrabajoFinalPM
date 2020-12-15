@@ -3,6 +3,8 @@
 #include "inicio.h"
 #include "lecturaADC.h"
 
+
+
 void lecturaADC()
 {
    if (bandenviar==0) {

@@ -14,7 +14,7 @@
 /*==================[tipos de datos declarados por el usuario]===============*/
 
 /*==================[declaraciones de datos externos]========================*/
-
+uint16_t muestra;
 /*==================[declaraciones de funciones externas]====================*/
 
 
