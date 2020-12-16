@@ -3,11 +3,8 @@
 #include "inicio.h"
 #include "lecturaADC.h"
 
-
-
 void lecturaADC() {
 	if (tarea == 1) {
-
 
 		if (bantrigger == 0) {
 			muestra16[0] = adcRead(CH1);

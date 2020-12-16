@@ -26,11 +26,11 @@ uint8_t mili;
 uint8_t bantrigger;
 
 /*==================[declaraciones de funciones externas]====================*/
-
-extern void lecturateclado(void);
-extern void lecturaADC(void);
-extern void enviodatos(void);
-extern void procesamiento(void);
+void inicio(void);
+void lecturateclado(void);
+void lecturaADC(void);
+void enviodatos(void);
+void procesamiento(void);
 
 /*==================[end of file]============================================*/
 #endif

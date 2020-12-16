@@ -2,10 +2,6 @@
 #include "sapi.h"        // <= Biblioteca sAPI
 #include "inicio.h"
 #include "lecturateclado.h"
-/* Inicializacion de variables locales*/
-
-
-
 
 void lecturateclado() {
 	if (tarea == 0) {

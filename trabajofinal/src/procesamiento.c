@@ -3,8 +3,6 @@
 #include "inicio.h"
 #include "procesamiento.h"
 
-
-
 void procesamiento() {
 	if (tarea == 2) {
 		for (i = 0; i < 256; i++) {

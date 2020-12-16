@@ -1,236 +1,237 @@
-trabajofinal/out/trabajofinal.elf:1a0009c4 000000bc t uartProcessIRQ
+trabajofinal/out/trabajofinal.elf:1a0009d8 000000bc t uartProcessIRQ
 trabajofinal/out/trabajofinal.elf:100000dc 00000004 b rxIsrCallbackUART0
 trabajofinal/out/trabajofinal.elf:100000e0 00000004 b rxIsrCallbackUART2
 trabajofinal/out/trabajofinal.elf:100000e4 00000004 b rxIsrCallbackUART3
 trabajofinal/out/trabajofinal.elf:100000e8 00000004 b txIsrCallbackUART0
 trabajofinal/out/trabajofinal.elf:100000ec 00000004 b txIsrCallbackUART2
 trabajofinal/out/trabajofinal.elf:100000f0 00000004 b txIsrCallbackUART3
-trabajofinal/out/trabajofinal.elf:1a002300 00000048 t lpcUarts
-trabajofinal/out/trabajofinal.elf:100000c8 0000000a b uartBuff.12276
+trabajofinal/out/trabajofinal.elf:1a002314 00000048 t lpcUarts
+trabajofinal/out/trabajofinal.elf:100000c8 0000000a b uartBuff.12278
 trabajofinal/out/trabajofinal.elf:10000000 00000004 d ClockSpeed
-trabajofinal/out/trabajofinal.elf:1a00064c 00000010 t clearInterrupt
-trabajofinal/out/trabajofinal.elf:1a00065c 0000005c t serveInterrupt
+trabajofinal/out/trabajofinal.elf:1a000660 00000010 t clearInterrupt
+trabajofinal/out/trabajofinal.elf:1a000670 0000005c t serveInterrupt
 trabajofinal/out/trabajofinal.elf:10000008 00000048 d ultrasonicSensors
-trabajofinal/out/trabajofinal.elf:1a0021c4 00000003 t ultrasonicSensorsIrqMap
-trabajofinal/out/trabajofinal.elf:1a0006d8 00000034 t gpioObtainPinInit
-trabajofinal/out/trabajofinal.elf:1a000c16 00000002 t errorOcurred
-trabajofinal/out/trabajofinal.elf:1a000c18 00000002 t doNothing
+trabajofinal/out/trabajofinal.elf:1a0021d8 00000003 t ultrasonicSensorsIrqMap
+trabajofinal/out/trabajofinal.elf:1a0006ec 00000034 t gpioObtainPinInit
+trabajofinal/out/trabajofinal.elf:1a000c2a 00000002 t errorOcurred
+trabajofinal/out/trabajofinal.elf:1a000c2c 00000002 t doNothing
 trabajofinal/out/trabajofinal.elf:10000050 00000040 d timer_dd
-trabajofinal/out/trabajofinal.elf:1a000efc 00000044 t Board_LED_Init
-trabajofinal/out/trabajofinal.elf:1a000f40 00000040 t Board_TEC_Init
-trabajofinal/out/trabajofinal.elf:1a000f80 00000040 t Board_GPIO_Init
-trabajofinal/out/trabajofinal.elf:1a000fc0 00000038 t Board_SPI_Init
-trabajofinal/out/trabajofinal.elf:1a000ff8 00000024 t Board_I2C_Init
-trabajofinal/out/trabajofinal.elf:1a00101c 00000030 t Board_ADC_Init
-trabajofinal/out/trabajofinal.elf:1a00234c 00000008 t GpioButtons
-trabajofinal/out/trabajofinal.elf:1a002354 0000000c t GpioLeds
-trabajofinal/out/trabajofinal.elf:1a002360 00000012 t GpioPorts
-trabajofinal/out/trabajofinal.elf:1a002378 0000000c t InitClkStates
-trabajofinal/out/trabajofinal.elf:1a002384 00000098 t pinmuxing
+trabajofinal/out/trabajofinal.elf:1a000f10 00000044 t Board_LED_Init
+trabajofinal/out/trabajofinal.elf:1a000f54 00000040 t Board_TEC_Init
+trabajofinal/out/trabajofinal.elf:1a000f94 00000040 t Board_GPIO_Init
+trabajofinal/out/trabajofinal.elf:1a000fd4 00000038 t Board_SPI_Init
+trabajofinal/out/trabajofinal.elf:1a00100c 00000024 t Board_I2C_Init
+trabajofinal/out/trabajofinal.elf:1a001030 00000030 t Board_ADC_Init
+trabajofinal/out/trabajofinal.elf:1a002360 00000008 t GpioButtons
+trabajofinal/out/trabajofinal.elf:1a002368 0000000c t GpioLeds
+trabajofinal/out/trabajofinal.elf:1a002374 00000012 t GpioPorts
+trabajofinal/out/trabajofinal.elf:1a00238c 0000000c t InitClkStates
+trabajofinal/out/trabajofinal.elf:1a002398 00000098 t pinmuxing
 trabajofinal/out/trabajofinal.elf:10000090 00000038 d i2c
-trabajofinal/out/trabajofinal.elf:1a0011f4 0000002c t Chip_UART_GetIndex
-trabajofinal/out/trabajofinal.elf:1a00241c 00000008 t UART_BClock
-trabajofinal/out/trabajofinal.elf:1a002424 00000008 t UART_PClock
-trabajofinal/out/trabajofinal.elf:1a001390 00000014 t Chip_ADC_GetClockIndex
-trabajofinal/out/trabajofinal.elf:1a0013a4 00000032 t getClkDiv
-trabajofinal/out/trabajofinal.elf:1a001570 000000a0 t pll_calc_divs
-trabajofinal/out/trabajofinal.elf:1a001610 0000010c t pll_get_frac
-trabajofinal/out/trabajofinal.elf:1a00171c 0000004c t Chip_Clock_FindBaseClock
-trabajofinal/out/trabajofinal.elf:1a001990 00000022 t Chip_Clock_GetDivRate
+trabajofinal/out/trabajofinal.elf:1a001208 0000002c t Chip_UART_GetIndex
+trabajofinal/out/trabajofinal.elf:1a002430 00000008 t UART_BClock
+trabajofinal/out/trabajofinal.elf:1a002438 00000008 t UART_PClock
+trabajofinal/out/trabajofinal.elf:1a0013a4 00000014 t Chip_ADC_GetClockIndex
+trabajofinal/out/trabajofinal.elf:1a0013b8 00000032 t getClkDiv
+trabajofinal/out/trabajofinal.elf:1a001584 000000a0 t pll_calc_divs
+trabajofinal/out/trabajofinal.elf:1a001624 0000010c t pll_get_frac
+trabajofinal/out/trabajofinal.elf:1a001730 0000004c t Chip_Clock_FindBaseClock
+trabajofinal/out/trabajofinal.elf:1a0019a4 00000022 t Chip_Clock_GetDivRate
 trabajofinal/out/trabajofinal.elf:100000f4 00000008 b audio_usb_pll_freq
-trabajofinal/out/trabajofinal.elf:1a002438 0000006c t periph_to_base
-trabajofinal/out/trabajofinal.elf:1a0024a4 00000048 t InitClkStates
-trabajofinal/out/trabajofinal.elf:1a001ce0 00000014 t Chip_SSP_GetClockIndex
-trabajofinal/out/trabajofinal.elf:1a001cf4 00000018 t Chip_SSP_GetPeriphClockIndex
-trabajofinal/out/trabajofinal.elf:1a0024ec b __init_array_end
-trabajofinal/out/trabajofinal.elf:1a0024ec b __preinit_array_end
-trabajofinal/out/trabajofinal.elf:1a0024ec b __init_array_start
-trabajofinal/out/trabajofinal.elf:1a0024ec b __preinit_array_start
-trabajofinal/out/trabajofinal.elf:1a0017b4 0000001c T Chip_Clock_GetDividerSource
-trabajofinal/out/trabajofinal.elf:1a000c9c 00000044 T TIMER2_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000ab0 00000014 T uartRxRead
+trabajofinal/out/trabajofinal.elf:1a00244c 0000006c t periph_to_base
+trabajofinal/out/trabajofinal.elf:1a0024b8 00000048 t InitClkStates
+trabajofinal/out/trabajofinal.elf:1a001cf4 00000014 t Chip_SSP_GetClockIndex
+trabajofinal/out/trabajofinal.elf:1a001d08 00000018 t Chip_SSP_GetPeriphClockIndex
+trabajofinal/out/trabajofinal.elf:1a002500 b __init_array_end
+trabajofinal/out/trabajofinal.elf:1a002500 b __preinit_array_end
+trabajofinal/out/trabajofinal.elf:1a002500 b __init_array_start
+trabajofinal/out/trabajofinal.elf:1a002500 b __preinit_array_start
+trabajofinal/out/trabajofinal.elf:1a0017c8 0000001c T Chip_Clock_GetDividerSource
+trabajofinal/out/trabajofinal.elf:1a000cb0 00000044 T TIMER2_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a000ac4 00000014 T uartRxRead
 trabajofinal/out/trabajofinal.elf:1a00018e 00000002 W DebugMon_Handler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W RIT_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a00143c 00000016 T Chip_ADC_DeInit
+trabajofinal/out/trabajofinal.elf:1a001450 00000016 T Chip_ADC_DeInit
 trabajofinal/out/trabajofinal.elf:1a080000 A __top_MFlashA512
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W ADCHS_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000114 T __section_table_start
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W FLASH_EEPROM_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W I2C0_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000b54 0000001e T uartReadByte
+trabajofinal/out/trabajofinal.elf:1a000b68 0000001e T uartReadByte
 trabajofinal/out/trabajofinal.elf:100000fc 00000001 B mili
-trabajofinal/out/trabajofinal.elf:1a000bd8 0000003e T delayRead
+trabajofinal/out/trabajofinal.elf:1a000bec 0000003e T delayRead
 trabajofinal/out/trabajofinal.elf:100000d4 00000004 B callBackFuncParams
 trabajofinal/out/trabajofinal.elf:1a000184 00000002 W HardFault_Handler
+trabajofinal/out/trabajofinal.elf:1a00046c 00000054 T inicio
 trabajofinal/out/trabajofinal.elf:1a000000 A __vectors_start__
-trabajofinal/out/trabajofinal.elf:1a001504 0000000c T Chip_ADC_SetResolution
+trabajofinal/out/trabajofinal.elf:1a001518 0000000c T Chip_ADC_SetResolution
 trabajofinal/out/trabajofinal.elf:1a000300 0000004c T procesamiento
-trabajofinal/out/trabajofinal.elf:1a000994 00000030 T SysTick_Handler
-trabajofinal/out/trabajofinal.elf:1a001274 00000040 T Chip_UART_SetBaud
+trabajofinal/out/trabajofinal.elf:1a0009a8 00000030 T SysTick_Handler
+trabajofinal/out/trabajofinal.elf:1a001288 00000040 T Chip_UART_SetBaud
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SDIO_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W ATIMER_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000190 00000002 W PendSV_Handler
 trabajofinal/out/trabajofinal.elf:1a000182 00000002 W NMI_Handler
-trabajofinal/out/trabajofinal.elf:1a0024f4 R __exidx_end
+trabajofinal/out/trabajofinal.elf:1a002508 R __exidx_end
 trabajofinal/out/trabajofinal.elf:1a000150 T __data_section_table_end
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W I2C1_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W UART1_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GPIO5_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W CAN1_IRQHandler
-trabajofinal/out/trabajofinal.elf:53ff5ac8 A __valid_user_code_checksum
-trabajofinal/out/trabajofinal.elf:1a0024f4 R _etext
+trabajofinal/out/trabajofinal.elf:53ff5ab4 A __valid_user_code_checksum
+trabajofinal/out/trabajofinal.elf:1a002508 R _etext
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W USB1_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W I2S0_IRQHandler
 trabajofinal/out/trabajofinal.elf:100000fd 00000001 B tempo
-trabajofinal/out/trabajofinal.elf:1a000ce0 00000044 T TIMER3_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001a32 0000000c T Chip_Clock_GetBaseClocktHz
+trabajofinal/out/trabajofinal.elf:1a000cf4 00000044 T TIMER3_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a001a46 0000000c T Chip_Clock_GetBaseClocktHz
 trabajofinal/out/trabajofinal.elf:1a000178 0000000a T UART0_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a0001b4 00000012 T bss_init
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SGPIO_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001e1c T __aeabi_uldivmod
+trabajofinal/out/trabajofinal.elf:1a001e30 T __aeabi_uldivmod
 trabajofinal/out/trabajofinal.elf:100004a4 ? _noinit
-trabajofinal/out/trabajofinal.elf:1a000b8c 00000016 T uartWriteString
+trabajofinal/out/trabajofinal.elf:1a000ba0 00000016 T uartWriteString
 trabajofinal/out/trabajofinal.elf:100004a0 00000004 B SystemCoreClock
-trabajofinal/out/trabajofinal.elf:1a001220 00000054 T Chip_UART_Init
+trabajofinal/out/trabajofinal.elf:1a001234 00000054 T Chip_UART_Init
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W ADC0_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a0013e4 00000018 T readAdcVal
+trabajofinal/out/trabajofinal.elf:1a0013f8 00000018 T readAdcVal
 trabajofinal/out/trabajofinal.elf:1a00018a 00000002 W UsageFault_Handler
-trabajofinal/out/trabajofinal.elf:1a001ae4 0000004c T Chip_Clock_GetRate
+trabajofinal/out/trabajofinal.elf:1a001af8 0000004c T Chip_Clock_GetRate
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GPIO6_IRQHandler
 trabajofinal/out/trabajofinal.elf:10000490 00000008 B tickCounter
-trabajofinal/out/trabajofinal.elf:1a001100 0000006c T Board_SetupClocking
+trabajofinal/out/trabajofinal.elf:1a001114 0000006c T Board_SetupClocking
 trabajofinal/out/trabajofinal.elf:20008000 A __top_RamAHB32
-trabajofinal/out/trabajofinal.elf:1a0004ac 00000060 T itoa
-trabajofinal/out/trabajofinal.elf:1a001e4c 000002d0 T __udivmoddi4
-trabajofinal/out/trabajofinal.elf:1a002348 00000004 T ExtRateIn
+trabajofinal/out/trabajofinal.elf:1a0004c0 00000060 T itoa
+trabajofinal/out/trabajofinal.elf:1a001e60 000002d0 T __udivmoddi4
+trabajofinal/out/trabajofinal.elf:1a00235c 00000004 T ExtRateIn
 trabajofinal/out/trabajofinal.elf:10000488 00000001 B receivedByte
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W IntDefaultHandler
 trabajofinal/out/trabajofinal.elf:1a000300 T __CRP_WORD_END__
-trabajofinal/out/trabajofinal.elf:1a0006c2 0000000a T GPIO1_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a0006d6 0000000a T GPIO1_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SSP0_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000a80 00000018 T uartRxReady
-trabajofinal/out/trabajofinal.elf:1a0024ec R __exidx_start
+trabajofinal/out/trabajofinal.elf:1a000a94 00000018 T uartRxReady
+trabajofinal/out/trabajofinal.elf:1a002500 R __exidx_start
 trabajofinal/out/trabajofinal.elf:1a0002fc 00000004 T CRP_WORD
-trabajofinal/out/trabajofinal.elf:1a0013d6 0000000e T setStartMode
-trabajofinal/out/trabajofinal.elf:1a002120 00000048 T __libc_init_array
-trabajofinal/out/trabajofinal.elf:1a000d24 0000008c T adcInit
+trabajofinal/out/trabajofinal.elf:1a0013ea 0000000e T setStartMode
+trabajofinal/out/trabajofinal.elf:1a002134 00000048 T __libc_init_array
+trabajofinal/out/trabajofinal.elf:1a000d38 0000008c T adcInit
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W ADC1_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001070 0000003c T Board_Init
-trabajofinal/out/trabajofinal.elf:1a001e18 00000002 T _init
+trabajofinal/out/trabajofinal.elf:1a001084 0000003c T Board_Init
+trabajofinal/out/trabajofinal.elf:1a001e2c 00000002 T _init
 trabajofinal/out/trabajofinal.elf:1a000114 T __data_section_table
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W RTC_IRQHandler
 trabajofinal/out/trabajofinal.elf:100004a4 B _ebss
-trabajofinal/out/trabajofinal.elf:1a001510 0000002a T Chip_ADC_EnableChannel
-trabajofinal/out/trabajofinal.elf:1a000c1c 00000040 T TIMER0_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000918 0000007c T tickInit
+trabajofinal/out/trabajofinal.elf:1a001524 0000002a T Chip_ADC_EnableChannel
+trabajofinal/out/trabajofinal.elf:1a000c30 00000040 T TIMER0_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a00092c 0000007c T tickInit
 trabajofinal/out/trabajofinal.elf:20010000 A __top_RamAHB_ETB16
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SPI_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a0011bc 00000038 T Chip_I2C_SetClockRate
+trabajofinal/out/trabajofinal.elf:1a0011d0 00000038 T Chip_I2C_SetClockRate
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W LCD_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001768 0000004c T Chip_Clock_EnableCrystal
-trabajofinal/out/trabajofinal.elf:1a001452 00000008 T Chip_ADC_ReadValue
+trabajofinal/out/trabajofinal.elf:1a00177c 0000004c T Chip_Clock_EnableCrystal
+trabajofinal/out/trabajofinal.elf:1a001466 00000008 T Chip_ADC_ReadValue
 trabajofinal/out/trabajofinal.elf:10008000 A __top_RamLoc32
 trabajofinal/out/trabajofinal.elf:1a000196 0000001e T data_init
-trabajofinal/out/trabajofinal.elf:1a0014b2 00000020 T Chip_ADC_SetStartMode
-trabajofinal/out/trabajofinal.elf:1a000c5c 00000040 T TIMER1_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001198 00000024 T Chip_I2C_Init
-trabajofinal/out/trabajofinal.elf:1a000ba2 0000000a T UART2_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000578 000000b8 T lecturateclado
-trabajofinal/out/trabajofinal.elf:1a001924 0000006c T Chip_Clock_GetMainPLLHz
-trabajofinal/out/trabajofinal.elf:1a0021c8 00000136 T gpioPinsInit
+trabajofinal/out/trabajofinal.elf:1a0014c6 00000020 T Chip_ADC_SetStartMode
+trabajofinal/out/trabajofinal.elf:1a000c70 00000040 T TIMER1_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a0011ac 00000024 T Chip_I2C_Init
+trabajofinal/out/trabajofinal.elf:1a000bb6 0000000a T UART2_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a00058c 000000b8 T lecturateclado
+trabajofinal/out/trabajofinal.elf:1a001938 0000006c T Chip_Clock_GetMainPLLHz
+trabajofinal/out/trabajofinal.elf:1a0021dc 00000136 T gpioPinsInit
 trabajofinal/out/trabajofinal.elf:100000fe 00000002 B i
-trabajofinal/out/trabajofinal.elf:1a000b72 0000001a T uartWriteByte
-trabajofinal/out/trabajofinal.elf:1a001d0c 00000012 T Chip_SSP_SetClockRate
-trabajofinal/out/trabajofinal.elf:1a0006cc 0000000a T GPIO2_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000db0 00000058 T adcRead
-trabajofinal/out/trabajofinal.elf:1a001a0c 00000026 T Chip_Clock_GetBaseClock
+trabajofinal/out/trabajofinal.elf:1a000b86 0000001a T uartWriteByte
+trabajofinal/out/trabajofinal.elf:1a001d20 00000012 T Chip_SSP_SetClockRate
+trabajofinal/out/trabajofinal.elf:1a0006e0 0000000a T GPIO2_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a000dc4 00000058 T adcRead
+trabajofinal/out/trabajofinal.elf:1a001a20 00000026 T Chip_Clock_GetBaseClock
 trabajofinal/out/trabajofinal.elf:100000c8 B _bss
-trabajofinal/out/trabajofinal.elf:1a00145a 00000036 T Chip_ADC_ReadStatus
-trabajofinal/out/trabajofinal.elf:1a0014d2 00000032 T Chip_ADC_SetSampleRate
-trabajofinal/out/trabajofinal.elf:1a000bb8 00000020 T delayInit
+trabajofinal/out/trabajofinal.elf:1a00146e 00000036 T Chip_ADC_ReadStatus
+trabajofinal/out/trabajofinal.elf:1a0014e6 00000032 T Chip_ADC_SetSampleRate
+trabajofinal/out/trabajofinal.elf:1a000bcc 00000020 T delayInit
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W I2S1_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001d1e 0000003e T Chip_SSP_SetBitRate
-trabajofinal/out/trabajofinal.elf:1a001b84 00000002 T Chip_GPIO_Init
-trabajofinal/out/trabajofinal.elf:1a002374 00000004 T OscRateIn
-trabajofinal/out/trabajofinal.elf:1a0003e4 000000c8 T lecturaADC
-trabajofinal/out/trabajofinal.elf:1a000ad8 0000007c T uartInit
+trabajofinal/out/trabajofinal.elf:1a001d32 0000003e T Chip_SSP_SetBitRate
+trabajofinal/out/trabajofinal.elf:1a001b98 00000002 T Chip_GPIO_Init
+trabajofinal/out/trabajofinal.elf:1a002388 00000004 T OscRateIn
+trabajofinal/out/trabajofinal.elf:1a0003a4 000000c8 T lecturaADC
+trabajofinal/out/trabajofinal.elf:1a000aec 0000007c T uartInit
 trabajofinal/out/trabajofinal.elf:100004a4 ? _end_noinit
 trabajofinal/out/trabajofinal.elf:10008000 A _vStackTop
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SSP1_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000178 T __bss_section_table_end
-trabajofinal/out/trabajofinal.elf:1a00070c 00000194 T gpioInit
-trabajofinal/out/trabajofinal.elf:1a00211c 00000002 W __aeabi_ldiv0
+trabajofinal/out/trabajofinal.elf:1a000720 00000194 T gpioInit
+trabajofinal/out/trabajofinal.elf:1a002130 00000002 W __aeabi_ldiv0
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W USB0_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001ab0 00000034 T Chip_Clock_Disable
+trabajofinal/out/trabajofinal.elf:1a001ac4 00000034 T Chip_Clock_Disable
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GPIO3_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SCT_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a0017d0 0000001c T Chip_Clock_GetDividerDivisor
+trabajofinal/out/trabajofinal.elf:1a0017e4 0000001c T Chip_Clock_GetDividerDivisor
 trabajofinal/out/trabajofinal.elf:1a0002fc T __CRP_WORD_START__
-trabajofinal/out/trabajofinal.elf:1a002168 00000010 T memset
+trabajofinal/out/trabajofinal.elf:1a00217c 00000010 T memset
 trabajofinal/out/trabajofinal.elf:1a000186 00000002 W MemManage_Handler
-trabajofinal/out/trabajofinal.elf:1a00034c 00000098 T main
+trabajofinal/out/trabajofinal.elf:1a00034c 00000058 T main
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W WDT_IRQHandler
 trabajofinal/out/trabajofinal.elf:2000c000 A __top_RamAHB16
 trabajofinal/out/trabajofinal.elf:1008a000 A __top_RamLoc40
 trabajofinal/out/trabajofinal.elf:10000100 0000012c B datos8
 trabajofinal/out/trabajofinal.elf:1a00018c 00000002 W SVC_Handler
 trabajofinal/out/trabajofinal.elf:10000004 00000004 D DWT_CTRL
-trabajofinal/out/trabajofinal.elf:1a000a98 00000018 T uartTxReady
+trabajofinal/out/trabajofinal.elf:1a000aac 00000018 T uartTxReady
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GPIO7_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001a40 0000003c T Chip_Clock_EnableOpts
-trabajofinal/out/trabajofinal.elf:1a0017ec 000000b8 T Chip_Clock_GetClockInputHz
-trabajofinal/out/trabajofinal.elf:1a001b30 00000054 T fpuInit
-trabajofinal/out/trabajofinal.elf:1a0018a4 00000080 T Chip_Clock_CalcMainPLLValue
-trabajofinal/out/trabajofinal.elf:1a0010ac 0000001c T SystemInit
+trabajofinal/out/trabajofinal.elf:1a001a54 0000003c T Chip_Clock_EnableOpts
+trabajofinal/out/trabajofinal.elf:1a001800 000000b8 T Chip_Clock_GetClockInputHz
+trabajofinal/out/trabajofinal.elf:1a001b44 00000054 T fpuInit
+trabajofinal/out/trabajofinal.elf:1a0018b8 00000080 T Chip_Clock_CalcMainPLLValue
+trabajofinal/out/trabajofinal.elf:1a0010c0 0000001c T SystemInit
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W SPIFI_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W QEI_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000150 T __bss_section_table
-trabajofinal/out/trabajofinal.elf:1a0013fc 00000040 T Chip_ADC_Init
-trabajofinal/out/trabajofinal.elf:1a0010c8 00000038 T Board_SetupMuxing
-trabajofinal/out/trabajofinal.elf:1a0012b4 000000dc T Chip_UART_SetBaudFDR
-trabajofinal/out/trabajofinal.elf:1a0008f4 0000000c T tickRead
+trabajofinal/out/trabajofinal.elf:1a001410 00000040 T Chip_ADC_Init
+trabajofinal/out/trabajofinal.elf:1a0010dc 00000038 T Board_SetupMuxing
+trabajofinal/out/trabajofinal.elf:1a0012c8 000000dc T Chip_UART_SetBaudFDR
+trabajofinal/out/trabajofinal.elf:1a000908 0000000c T tickRead
 trabajofinal/out/trabajofinal.elf:10000498 00000008 B tickRateMS
-trabajofinal/out/trabajofinal.elf:1a00153a 00000022 T Chip_ADC_SetBurstCmd
+trabajofinal/out/trabajofinal.elf:1a00154e 00000022 T Chip_ADC_SetBurstCmd
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W ETH_IRQHandler
 trabajofinal/out/trabajofinal.elf:100000d8 00000004 B tickHookFunction
 trabajofinal/out/trabajofinal.elf:10000000 ? _end_uninit_RESERVED
-trabajofinal/out/trabajofinal.elf:1a000ac4 00000014 T uartTxWrite
+trabajofinal/out/trabajofinal.elf:1a000ad8 00000014 T uartTxWrite
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W CAN0_IRQHandler
 trabajofinal/out/trabajofinal.elf:10000000 D _data
 trabajofinal/out/trabajofinal.elf:100004a4 B _pvHeapStart
 trabajofinal/out/trabajofinal.elf:1a000178 T __section_table_end
-trabajofinal/out/trabajofinal.elf:1a001d5c 00000038 T Chip_SSP_Init
+trabajofinal/out/trabajofinal.elf:1a001d70 00000038 T Chip_SSP_Init
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GINT0_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W DAC_IRQHandler
 trabajofinal/out/trabajofinal.elf:1000022c 00000001 B bantrigger
-trabajofinal/out/trabajofinal.elf:1a00104c 00000024 T Board_Debug_Init
-trabajofinal/out/trabajofinal.elf:1a00050c 0000006c T enviodatos
-trabajofinal/out/trabajofinal.elf:1a001490 00000022 T Chip_ADC_Int_SetChannelCmd
+trabajofinal/out/trabajofinal.elf:1a001060 00000024 T Board_Debug_Init
+trabajofinal/out/trabajofinal.elf:1a000520 0000006c T enviodatos
+trabajofinal/out/trabajofinal.elf:1a0014a4 00000022 T Chip_ADC_Int_SetChannelCmd
 trabajofinal/out/trabajofinal.elf:100000c8 D _edata
-trabajofinal/out/trabajofinal.elf:1a001178 00000020 T Chip_I2C_EventHandler
+trabajofinal/out/trabajofinal.elf:1a00118c 00000020 T Chip_I2C_EventHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W M0SUB_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a001b88 00000158 T Chip_SetupCoreClock
-trabajofinal/out/trabajofinal.elf:1a0006b8 0000000a T GPIO0_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a001b9c 00000158 T Chip_SetupCoreClock
+trabajofinal/out/trabajofinal.elf:1a0006cc 0000000a T GPIO0_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000000 00000114 T g_pfnVectors
-trabajofinal/out/trabajofinal.elf:1a001d94 00000084 T ResetISR
-trabajofinal/out/trabajofinal.elf:1a00155c 00000014 T SystemCoreClockUpdate
+trabajofinal/out/trabajofinal.elf:1a001da8 00000084 T ResetISR
+trabajofinal/out/trabajofinal.elf:1a001570 00000014 T SystemCoreClockUpdate
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W DMA_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W EVRT_IRQHandler
 trabajofinal/out/trabajofinal.elf:1b080000 A __top_MFlashB512
 trabajofinal/out/trabajofinal.elf:1000022d 00000001 B bancont
 trabajofinal/out/trabajofinal.elf:1000022e 00000001 B tarea
-trabajofinal/out/trabajofinal.elf:1a00211c 00000002 W __aeabi_idiv0
+trabajofinal/out/trabajofinal.elf:1a002130 00000002 W __aeabi_idiv0
 trabajofinal/out/trabajofinal.elf:1a000188 00000002 W BusFault_Handler
-trabajofinal/out/trabajofinal.elf:1a001a7c 00000034 T Chip_Clock_Enable
-trabajofinal/out/trabajofinal.elf:1a000bac 0000000a T UART3_IRQHandler
+trabajofinal/out/trabajofinal.elf:1a001a90 00000034 T Chip_Clock_Enable
+trabajofinal/out/trabajofinal.elf:1a000bc0 0000000a T UART3_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W MCPWM_IRQHandler
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W M0APP_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a0008a0 00000054 T gpioRead
-trabajofinal/out/trabajofinal.elf:1a000e08 000000f4 T boardInit
+trabajofinal/out/trabajofinal.elf:1a0008b4 00000054 T gpioRead
+trabajofinal/out/trabajofinal.elf:1a000e1c 000000f4 T boardInit
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GINT1_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a000900 00000018 T tickPowerSet
+trabajofinal/out/trabajofinal.elf:1a000914 00000018 T tickPowerSet
 trabajofinal/out/trabajofinal.elf:10000230 00000258 B muestra16
-trabajofinal/out/trabajofinal.elf:1a0019b4 00000058 T Chip_Clock_SetBaseClock
-trabajofinal/out/trabajofinal.elf:1a000630 0000001c T cyclesCounterInit
+trabajofinal/out/trabajofinal.elf:1a0019c8 00000058 T Chip_Clock_SetBaseClock
+trabajofinal/out/trabajofinal.elf:1a000644 0000001c T cyclesCounterInit
 trabajofinal/out/trabajofinal.elf:1a000194 00000002 W GPIO4_IRQHandler
-trabajofinal/out/trabajofinal.elf:1a00116c 0000000c T Board_SystemInit
+trabajofinal/out/trabajofinal.elf:1a001180 0000000c T Board_SystemInit
