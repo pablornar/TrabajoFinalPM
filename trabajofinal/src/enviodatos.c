@@ -34,23 +34,17 @@ char* itoa(int value, char* result, int base) {
 
 void enviodatos() {
 	/* Buffer */
-	    static char uartBuff[10];
+	static char uartBuff[10];
 	if (tarea == 3) {
 		/* Conversión de muestra entera a ascii con base decimal */
 		itoa(muestra16[i], uartBuff, 10); /* 10 significa decimal */
-		/* Enviar muestra y Enter */
 		uartWriteString(UART_USB, uartBuff);
 		uartWriteByte(UART_232, datos8[i]);
-		//uartWriteString(UART_USB, uartBuff);
-		//uartWriteString( UART_USB, muestra );
-		//uartWriteString(UART_232, "\r\n");
 		uartWriteString(UART_USB, "\r\n");
 		i = i + 1;
 		if (i == 256) {
 			i = 0;
 			tarea = 0;
-			//uartWriteString(UART_USB, "clear");
-			//uartWriteString(UART_USB, "\r\n");
 		}
 	}
 }

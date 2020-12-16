@@ -14282,36 +14282,36 @@ OUTPUT(trabajofinal/out/trabajofinal.elf elf32-littlearm)
  .debug_macro   0x000000000000c4fa       0x17 trabajofinal/out/libs/vendor_libs/lpc_startup/src/crp.o
  .debug_macro   0x000000000000c511      0x433 trabajofinal/out/libs/vendor_libs/lpc_startup/src/cr_startup_lpc43xx.o
 
-.debug_line     0x0000000000000000    0x14392
+.debug_line     0x0000000000000000    0x14390
  .debug_line    0x0000000000000000      0xb38 trabajofinal/out/trabajofinal/src/procesamiento.o
  .debug_line    0x0000000000000b38      0xb0d trabajofinal/out/trabajofinal/src/trabajofinal.o
  .debug_line    0x0000000000001645      0xbbf trabajofinal/out/trabajofinal/src/lecturaADC.o
  .debug_line    0x0000000000002204      0xaf6 trabajofinal/out/trabajofinal/src/inicio.o
- .debug_line    0x0000000000002cfa      0xc1a trabajofinal/out/trabajofinal/src/enviodatos.o
- .debug_line    0x0000000000003914      0xbaf trabajofinal/out/trabajofinal/src/lecturateclado.o
- .debug_line    0x00000000000044c3      0x936 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_cyclesCounter.o
- .debug_line    0x0000000000004df9      0xc56 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_ultrasonic_hcsr04.o
- .debug_line    0x0000000000005a4f      0xb92 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_gpio.o
- .debug_line    0x00000000000065e1      0x9f7 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_tick.o
- .debug_line    0x0000000000006fd8     0x120a trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_uart.o
- .debug_line    0x00000000000081e2      0xa6f trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_delay.o
- .debug_line    0x0000000000008c51      0xd84 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_timer.o
- .debug_line    0x00000000000099d5      0x912 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_adc.o
- .debug_line    0x000000000000a2e7      0x8f6 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_board.o
- .debug_line    0x000000000000abdd      0xd70 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/board.o
- .debug_line    0x000000000000b94d      0x867 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/sysinit.o
- .debug_line    0x000000000000c1b4      0x950 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/board_sysinit.o
- .debug_line    0x000000000000cb04     0x1092 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/i2c_18xx_43xx.o
- .debug_line    0x000000000000db96      0xf1e trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/uart_18xx_43xx.o
- .debug_line    0x000000000000eab4      0xad3 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/adc_18xx_43xx.o
- .debug_line    0x000000000000f587      0x7e7 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/chip_18xx_43xx.o
- .debug_line    0x000000000000fd6e     0x148b trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/clock_18xx_43xx.o
- .debug_line    0x00000000000111f9      0x38f trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/fpu_init.o
- .debug_line    0x0000000000011588      0x760 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/gpio_18xx_43xx.o
- .debug_line    0x0000000000011ce8      0x972 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/sysinit_18xx_43xx.o
- .debug_line    0x000000000001265a     0x1299 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/ssp_18xx_43xx.o
- .debug_line    0x00000000000138f3       0x47 trabajofinal/out/libs/vendor_libs/lpc_startup/src/crp.o
- .debug_line    0x000000000001393a      0xa58 trabajofinal/out/libs/vendor_libs/lpc_startup/src/cr_startup_lpc43xx.o
+ .debug_line    0x0000000000002cfa      0xc18 trabajofinal/out/trabajofinal/src/enviodatos.o
+ .debug_line    0x0000000000003912      0xbaf trabajofinal/out/trabajofinal/src/lecturateclado.o
+ .debug_line    0x00000000000044c1      0x936 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_cyclesCounter.o
+ .debug_line    0x0000000000004df7      0xc56 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_ultrasonic_hcsr04.o
+ .debug_line    0x0000000000005a4d      0xb92 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_gpio.o
+ .debug_line    0x00000000000065df      0x9f7 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_tick.o
+ .debug_line    0x0000000000006fd6     0x120a trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_uart.o
+ .debug_line    0x00000000000081e0      0xa6f trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_delay.o
+ .debug_line    0x0000000000008c4f      0xd84 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_timer.o
+ .debug_line    0x00000000000099d3      0x912 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_adc.o
+ .debug_line    0x000000000000a2e5      0x8f6 trabajofinal/out/libs/sapi/sapi_v0.5.1/src/sapi_board.o
+ .debug_line    0x000000000000abdb      0xd70 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/board.o
+ .debug_line    0x000000000000b94b      0x867 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/sysinit.o
+ .debug_line    0x000000000000c1b2      0x950 trabajofinal/out/libs/vendor_libs/lpc_board_ciaa_edu_4337/src/board_sysinit.o
+ .debug_line    0x000000000000cb02     0x1092 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/i2c_18xx_43xx.o
+ .debug_line    0x000000000000db94      0xf1e trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/uart_18xx_43xx.o
+ .debug_line    0x000000000000eab2      0xad3 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/adc_18xx_43xx.o
+ .debug_line    0x000000000000f585      0x7e7 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/chip_18xx_43xx.o
+ .debug_line    0x000000000000fd6c     0x148b trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/clock_18xx_43xx.o
+ .debug_line    0x00000000000111f7      0x38f trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/fpu_init.o
+ .debug_line    0x0000000000011586      0x760 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/gpio_18xx_43xx.o
+ .debug_line    0x0000000000011ce6      0x972 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/sysinit_18xx_43xx.o
+ .debug_line    0x0000000000012658     0x1299 trabajofinal/out/libs/vendor_libs/lpc_chip_43xx/src/ssp_18xx_43xx.o
+ .debug_line    0x00000000000138f1       0x47 trabajofinal/out/libs/vendor_libs/lpc_startup/src/crp.o
+ .debug_line    0x0000000000013938      0xa58 trabajofinal/out/libs/vendor_libs/lpc_startup/src/cr_startup_lpc43xx.o
 
 .debug_str      0x0000000000000000    0x1f867
  .debug_str     0x0000000000000000    0x1b66b trabajofinal/out/trabajofinal/src/procesamiento.o

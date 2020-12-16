@@ -64,13 +64,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  22 .debug_macro  0000c944  00000000  00000000  000481d0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 23 .debug_line   00014392  00000000  00000000  00054b14  2**0
+ 23 .debug_line   00014390  00000000  00000000  00054b14  2**0
                   CONTENTS, READONLY, DEBUGGING
- 24 .debug_str    0001f867  00000000  00000000  00068ea6  2**0
+ 24 .debug_str    0001f867  00000000  00000000  00068ea4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 25 .comment      00000068  00000000  00000000  0008870d  2**0
+ 25 .comment      00000068  00000000  00000000  0008870b  2**0
                   CONTENTS, READONLY
- 26 .ARM.attributes 00000032  00000000  00000000  00088775  2**0
+ 26 .ARM.attributes 00000032  00000000  00000000  00088773  2**0
                   CONTENTS, READONLY
  27 .debug_frame  0000186c  00000000  00000000  000887a8  2**2
                   CONTENTS, READONLY, DEBUGGING
@@ -1010,15 +1010,15 @@ char* itoa(int value, char* result, int base) {
 void enviodatos() {
 1a000520:	b538      	push	{r3, r4, r5, lr}
 	/* Buffer */
-	    static char uartBuff[10];
+	static char uartBuff[10];
 	if (tarea == 3) {
 1a000522:	4b14      	ldr	r3, [pc, #80]	; (1a000574 <enviodatos+0x54>)
 1a000524:	781b      	ldrb	r3, [r3, #0]
 1a000526:	2b03      	cmp	r3, #3
 1a000528:	d000      	beq.n	1a00052c <enviodatos+0xc>
+		if (i == 256) {
+			i = 0;
 			tarea = 0;
-			//uartWriteString(UART_USB, "clear");
-			//uartWriteString(UART_USB, "\r\n");
 		}
 	}
 }
