@@ -4,21 +4,20 @@
  * Fecha:
  *===========================================================================*/
 
-#ifndef _LECTURATECLADO_H_
-#define _LECTURATECLADO_H_
-
+#ifndef _PROCESAMIENTO_H_
+#define _PROCESAMIENTO_H_
 /*==================[inclusiones]============================================*/
 
 
-/*==================[macros]=================================================*/
+/*=================[macros]=================================================*/
 
 /*==================[tipos de datos declarados por el usuario]===============*/
 
 /*==================[declaraciones de datos externos]========================*/
-uint8_t receivedByte;
+
 /*==================[declaraciones de funciones externas]====================*/
 
 
-void lecturateclado(void);
+void procesamiento(void);
 /*==================[end of file]============================================*/
 #endif

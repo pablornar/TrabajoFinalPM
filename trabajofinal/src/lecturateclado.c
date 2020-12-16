@@ -8,35 +8,40 @@
 
 
 void lecturateclado() {
-	band1 = 1;
-	band4 = 0;
-	valor1 = 0;
-	valor4 = 0;
 	if (tarea == 0) {
-		valor1 = !gpioRead(TEC1);
-		valor4 = !gpioRead(TEC4);
-		if ((valor1 == 1) && (band1 == 0)) {
-			band1 = 1;
-			band4 = 0;
-		} else if ((valor4 == 1) && (band4 == 0)) {
-			band4 = 1;
-			band1 = 0;
-		} else if ((!gpioRead(TEC2)) == 1) {
+		if ((!gpioRead(TEC2)) == 1) {
 			tempo = 1;
+			mili = mili + 1;
+			if (mili > 20) {
+				mili = 20;
+			}
 		} else if ((!gpioRead(TEC3)) == 1) {
-			tempo = 2;
+			tempo = 1;
+			mili = mili - 1;
+			if (mili < 2) {
+				mili = 1;
+			}
 		}
-		tarea = 1;
-	}
-	if (uartReadByte(UART_USB, &receivedByte)) {
+
+		if (uartReadByte(UART_USB, &receivedByte)) {
 			switch (receivedByte) {
 			case 'a':
-			tempo=1;
-			break;
+				tempo = 1;
+				mili = mili + 1;
+				if (mili > 20) {
+					mili = 20;
+				}
+				break;
 			case 'b':
-			tempo=2;
-			break;
+				tempo = 1;
+				mili = mili - 1;
+				if (mili < 2) {
+					mili = 1;
+				}
+				break;
 			}
-			tarea = 1;
 		}
+
+		tarea = 1;
+	}
 }

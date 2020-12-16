@@ -18,15 +18,19 @@
 /*==================[declaraciones de datos externos]========================*/
 uint8_t tempo;
 uint8_t bancont;
-uint8_t muestra8[300];
+uint16_t muestra16[300];
+uint8_t datos8[300];
 uint16_t i;
 uint8_t tarea;
+uint8_t mili;
+uint8_t bantrigger;
 
 /*==================[declaraciones de funciones externas]====================*/
 
 extern void lecturateclado(void);
 extern void lecturaADC(void);
 extern void enviodatos(void);
+extern void procesamiento(void);
 
 /*==================[end of file]============================================*/
 #endif

@@ -32,28 +32,28 @@ int main(void)
 
    /* Inicializar Retardo no bloqueante con tiempo en milisegundos
     (500ms = 0,5s) */
-   delayConfig(&Ttarea, 5);
+   delayConfig(&Ttarea, 1);
 
    /*Inicializacion de variables  */
    tempo=0;
    bancont=0;
    i = 0;
    tarea=0;
+   mili=5;
+   bantrigger = 0;
 
    /* ------------- REPETIR POR SIEMPRE ------------- */
 	while (1) {
 		lecturateclado();
-
-
 		/* delayRead retorna TRUE cuando se cumple el tiempo de retardo */
 		if (delayRead(&Ttarea)) {
 			if (tempo == 1) {
-				delayConfig(&Ttarea, 1);
-			} else if (tempo == 2) {
-				delayConfig(&Ttarea, 2);
+				delayConfig(&Ttarea, mili);
+				tempo=0;
 			}
 			lecturaADC();
 		}
+		procesamiento();
 		enviodatos();
 	}
    return 0;
